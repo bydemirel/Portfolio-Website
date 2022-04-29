@@ -38,7 +38,7 @@ textarea{
     left: 8rem;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 1020px) {
     .contact-form{
         flex-direction: column;
         gap: 2.5rem;

@@ -106,7 +106,7 @@
     filter: blur(72px);
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 1020px) {
     .intro{
         flex-direction: column;
         height: 64rem;
