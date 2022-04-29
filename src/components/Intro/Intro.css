@@ -105,3 +105,39 @@
     left: 56%;
     filter: blur(72px);
 }
+
+@media screen and (max-width: 480px) {
+    .intro{
+        flex-direction: column;
+        height: 64rem;
+        gap: 7rem;
+    } 
+
+    .i-right{
+        transform: scale(0.65);
+        left: -5rem;
+    }
+    
+    .i-right :nth-child(1){
+        transform: scale(0.7);
+    }
+
+    .i-right :nth-child(2){
+        transform: scale(0.6);
+    }
+
+    .i-right :nth-child(3){
+        transform: scale(0.68);
+        left: 25%;
+    }
+
+    .i-right .blur{
+        display: none;
+    }
+
+    .floating-div :nth-of-type(1){
+        top: 0rem !important;
+        left: 0rem!important;
+        display: none;
+    }
+}

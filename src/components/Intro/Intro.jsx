@@ -21,7 +21,7 @@ const Intro = () => {
     const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
-      <div className="intro">
+      <div className="intro" id='Intro'>
           <div className="i-left">
               <div className="i-name">
                   <span style={{color: darkMode ? 'white':''}}>Hi! I am</span>
@@ -47,6 +47,7 @@ const Intro = () => {
               transition={transition}
               src={glassesimoji1} alt="" />
               <motion.div 
+              className='floating-div'
                initial={{top:'-4%',left:'74%'}}
                whileInView={{left:'68%'}}
                transition={transition}
@@ -55,6 +56,7 @@ const Intro = () => {
               </motion.div>
 
               <motion.div 
+              className='floating-div'
                initial={{top:'18rem',left:'9rem'}}
                whileInView={{left:'0rem'}}
                transition={transition}

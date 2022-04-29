@@ -20,7 +20,7 @@ const Navbar = () => {
           <ul>
             <Link
               spy={true}
-              to="Navbar"
+              to="Intro"
               smooth={true}
               activeClass="activeClass"
             >
