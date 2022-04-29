@@ -45,7 +45,7 @@
     color: var(--orange);
 }
 
-@media screen and (max-width: 2000px) {
+@media screen and (max-width: 480px) {
     .n-list{
         display: none;
     }

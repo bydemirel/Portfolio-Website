@@ -87,7 +87,7 @@
     top: 8rem;
 }
 
-@media screen and (max-width: 2000px) {
+@media screen and (max-width: 480px) {
     .works{
         flex-direction: column;
         height: 40rem;
