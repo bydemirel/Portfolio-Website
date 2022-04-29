@@ -20,10 +20,10 @@ const Services = () => {
                 <div className="awesome">
                     <span style={{color:darkMode?'white':''}}>My Awesome</span>
                     <span>Services</span>
-                    <span>Lorem ipsum simpley dummy  text of  bla bla
                     <br />
-                    ispum  is simpley  dummy text of printing
-                    </span>
+                    My main focuses are Web and Mobile Development,
+                    <br />
+                    also I am related with other languages.
                     <a href={Resume} download> 
                     <button className='button s-button' >Download CV</button>
                     </a>
@@ -47,7 +47,7 @@ const Services = () => {
                whileInView={{left:'-4rem'}}
                transition={transition}
                     style={{top:'12rem',left:'-4rem'}}>
-                        <Card emoji={Glasses} heading="Developer" detail="HTML,CSS, JavaScript, React, Vue, Flutter"
+                        <Card emoji={Glasses} heading="Web Developer" detail="HTML,CSS, JavaScript, React, Vue, Node, Express, ASP.MVC"
                         >
 
                         </Card>
@@ -58,7 +58,7 @@ const Services = () => {
                  whileInView={{left:'12rem'}}
                  transition={transition}
                     style={{top:'19rem',left:'12rem'}}>
-                        <Card emoji={Humble} heading="UI/UX" detail="Lorem ipsum simpley dummy  text of  bla bla"
+                        <Card emoji={Humble} heading="Other Languages" detail="Java, C, C++, Python, SQL"
                         >
 
                         </Card>

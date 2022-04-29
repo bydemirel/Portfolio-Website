@@ -17,15 +17,16 @@ const Works = () => {
       <div className="works">
           <div className="awesome">
               <span style={{color: darkMode?'white':''}}>Work for All These</span>
-              <span>Brands & Clients</span>
+              <span>Clients</span>
               <span>
-              Lorem ipsum simpley dummy  text of  bla bla
-              <br />
-              Lorem ipsum simpley dummy  text of  bla bla
-              <br />
-              Lorem ipsum simpley dummy  text of  bla bla
-              <br />
-              Lorem ipsum simpley dummy  text of  bla bla
+                  
+              </span>
+              I used Flutter for Mobile Applicaiton Development.
+              <span>
+              I used React.js and Vue.js for Frontend Web Development.
+              </span>
+              <span>
+              I used Node.js and Express for Server Development.
               </span>
               <button className='button s-button'>Hire me</button>
               <div className='blur s-blur2' style={{background: "#ABF1FF94"}}></div>
